@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Basics</title>
+</head>
+<body>
+    <header class="blog-header">
+        <h1 class="title-header">Blog about learning Web</h1>
+    </header>
+
+    <aside class="aside-left">
+        <h2 class="aside-title">Menu</h2>
+        <nav class="navbar-header">
+            <ul class="navbar-links">
+                <li>
+                    <a href="#today" target="_blank">Today</a>
+                </li>
+                <li>
+                    <a href="#yesterday" target="_blank">Yesterday</a>
+                </li>
+                <li>
+                    <a href="#last_week" target="_blank">Last week</a>
+                </li>
+                <li>
+                    <a href="#archives" target="_blank">Archives</a>
+                </li>
+            </ul>
+        </nav>
+    </aside>
+
+    <main class="main">
+        <section id="post1" class="article">
+            <h2><a class="title" id="GitHub">GitHub</a></h2>
+            <ol class="list">
+                <li>Authorizate</li>
+                <li>Make new repository, for watching you should <a href="https://github.com/KotumaAndrey/web-dev-course-SSU-2021">click</a></li>
+                <li>Copy this on your computer</li>
+                <li>Use SourceTree to push your first commit</li>
+            </ol>
+            <time class="time">2020-09-09</time>
+        </section>
+        <section id="post2" class="article">
+            <h2><a class="title" id="Lecture">Funny lecture</a></h2>
+            <div>
+                <p class="content">We are talking about Web, that's fine</p>
+                <time class="time">2020-09-10</time>
+            </div>
+        </section>
+        <section id="post3" class="article">
+            <h2><a class="title" id="Hometask">Silent homework</a></h2>
+            <div>
+                <p class="content">For this we used <a href="https://www.sgu.ru/schedule/knt/do/441#lessons"> our shedule</a></p>
+                <time class="time">2020-09-16</time>
+            </div>
+        </section>
+    </main>
+    <aside class="aside-right">
+        <h2 class="aside-title">Latest posts:</h2>
+        <nav class="aside-navbar>">
+            <ul class="navbar-links">
+                <li class="link">
+                    <a href="#GitHub">GitHub</a>
+                </li>
+                <li class="link">
+                    <a href="#Lecture">Lecture</a>
+                </li>
+                <li class="link">
+                    <a href="#Hometask">Hometask</a>
+                </li>
+            </ul>
+        </nav>
+    </aside>
+    <footer class="footer">
+        <p class="contact">
+            <b>Find me:</b> <a href="mailto:a.kotuma@mail.ru" target="_blank">a.kotuma@mail.ru</a>
+        </p>
+    </footer>
+</body>
+</html>

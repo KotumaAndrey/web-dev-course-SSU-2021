@@ -1,0 +1,61 @@
+html,body {
+    width: 100%;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+.blog-header {
+    display: table;
+    width: 100%;
+    height: 50px;
+    background: lightblue;
+    color: rgb(56, 34, 133);
+    text-align: center;
+    margin-bottom: 10px;
+    position: sticky;
+}
+.title-header {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.aside-left,
+.main,
+.aside-right {
+    display: inline-block;
+    vertical-align: top;
+}
+.aside-right {
+    width: 18%;
+    border: 5px dotted rgb(168, 45, 137);
+    padding: 20px 20px 0 0;
+    text-align: end;
+    box-sizing: border-box;
+}
+.aside-left {
+    width: 20%;
+    padding: 20px 0 0 20px;
+    box-sizing: border-box;
+}
+.main {
+    width: 60%;
+    border-left: 2px solid rgb(124, 207, 180);
+    padding: 20px 0 0 20px;
+    box-sizing: border-box;
+}
+.footer {
+    height: 60px;
+    text-align: center;
+}
+.navbar-links {
+    list-style: none;
+    padding: 0;
+}
+a:hover {
+    color: rgb(30, 236, 226);
+}
+a:visited {
+    color: rgb(106, 15, 167);
+}
+h2 {
+    margin: 0;
+}
