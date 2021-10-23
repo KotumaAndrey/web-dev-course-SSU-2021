@@ -1,0 +1,87 @@
+body {
+    width: 90%;
+    color:black;
+    font-family: 'Open Sans', sans-serif;
+    margin: 1px auto;
+}
+hr {
+    border: 1px;
+    background-color: #eecccc;
+    height: 2px; 
+    width: 90%;
+}
+li {
+    list-style: georgian;
+}
+a:link {
+    color: #2671d4;
+}
+a:visited {
+    color: #5b0694;
+}
+a:hover {
+    color:rgb(141, 143, 156);
+}
+header hr {
+    border: 2px;
+    height: 2px; 
+    width: 95%;
+}
+.bodier {
+    background-color: rgb(238, 237, 227);
+}
+.table {
+    padding: 20px 60px;
+    width: 100%;
+}
+.header-table {
+    height: 150px;
+    margin: 30px 0 auto;
+    font-size: 1.5rem;
+    padding: 0 50px;
+    width: 100%;
+}
+.header-table h2 {
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+}
+.header-table p {
+    margin-top: 10px;
+}
+.image {
+    width: 130px;
+    height: 125px;
+    margin: 2px auto;
+    overflow: hidden;
+    border-radius: 100%;
+}
+.cell-left {
+    width: 20%;
+}
+.cell-center {
+    text-align: start;
+    padding-left: 20px;
+}
+.cell-right {
+    text-align: end;
+    padding: 0 20px 0 10px;
+}
+.section-header {
+    width: 20%;
+    text-align: center;
+    color: rgb(136, 153, 223);
+    font-style: italic;
+}
+.section-table {
+    font-size: 1.1rem;
+}
+.section-table .header {
+    font-weight: 600;
+    font-size: 1.7rem;
+}
+.section-content {
+    padding-left: 40px;
+}
+.section-content progress {
+    margin-right: 30px;
+}
