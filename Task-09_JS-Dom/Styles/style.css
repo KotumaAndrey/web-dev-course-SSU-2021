@@ -1,0 +1,19 @@
+body{
+    margin: 14px;
+    font-style: italic;
+    font-size: 18px;
+}
+button{
+    margin: 14px;
+    padding: 14px;
+    font-style: italic;
+    font-size: 14px;
+}
+.results{
+    margin: 14px;
+    line-height: 200%;
+}
+
+.template{
+    color: rgb(41, 52, 212);
+}
